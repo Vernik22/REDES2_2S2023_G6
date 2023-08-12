@@ -15,34 +15,38 @@
 
 
 ### **Configuracion de la PC1**
-    ![D](./Images/PC1.png)
+<p align="center">
+![D](./Images/PC1.png)
+</p>
     
 ### **Configuracion de la PC2**
-    ![D](./Images/PC2.png)
+<p align="center">
+![D](./Images/PC2.png)
+</p>
 
 ### **Configuracion de la PC3**
-    ![D](./Images/PC3.png)
+![D](./Images/PC3.png)
 
 ### **Configuracion de la PC4**
-    ![D](./Images/PC4.png)
+![D](./Images/PC4.png)
 
 ### **Configuracion de la PC5**
-    ![D](./Images/PC5.png)
+![D](./Images/PC5.png)
 
 ### **Configuracion de la PC6**
-    ![D](./Images/PC6.png)
+![D](./Images/PC6.png)
 
 ### **Configuracion de la PC7**
-    ![D](./Images/PC7.png)
+![D](./Images/PC7.png)
 
 ### **Configuracion de la PC8**
-    ![D](./Images/PC8.png)
+![D](./Images/PC8.png)
 
 ### **Configuracion de la PC9**
-    ![D](./Images/PC9.png)
+![D](./Images/PC9.png)
 
 ### **Configuracion de la PC10**
-    ![D](./Images/PC10.png)
+![D](./Images/PC10.png)
 
 
 ### **Configuracion del Switch SW1**
@@ -453,7 +457,7 @@
     ```
 	
 - ### Resultados
-	![D](./Images/converencia.jpeg)
+	![D](./Images/convergencia.jpeg)
     Optamos por el protocolo rapid-pvst debido a su velocidad de linkeo, ya que es aproximadamente 3 veces más rápido que el modo pvst. Esto nos ayudará a que la red tenga alta disponibilidad.
     
 
