@@ -15,14 +15,11 @@
 
 
 ### **Configuracion de la PC1**
-<p align="center">
+
 ![D](./Images/PC1.png)
-</p>
     
 ### **Configuracion de la PC2**
-<p align="center">
 ![D](./Images/PC2.png)
-</p>
 
 ### **Configuracion de la PC3**
 ![D](./Images/PC3.png)
@@ -458,6 +455,7 @@
 	
 - ### Resultados
 	![D](./Images/convergencia.jpeg)
+    
     Optamos por el protocolo rapid-pvst debido a su velocidad de linkeo, ya que es aproximadamente 3 veces más rápido que el modo pvst. Esto nos ayudará a que la red tenga alta disponibilidad.
     
 
