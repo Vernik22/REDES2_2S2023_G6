@@ -11,7 +11,7 @@
 	![D](./Images/topologia.png)
 
 **<h1 align="center">Direcciones de redes</h1>**
-	![D](./Images/direccionesred.png)
+	![D](./Images/direccionesred.jpeg)
 
 
 ### **Configuracion de la PC1**
@@ -453,7 +453,7 @@
     ```
 	
 - ### Resultados
-	![D](./Images/converencia.png)
+	![D](./Images/converencia.jpeg)
     Optamos por el protocolo rapid-pvst debido a su velocidad de linkeo, ya que es aproximadamente 3 veces más rápido que el modo pvst. Esto nos ayudará a que la red tenga alta disponibilidad.
     
 
