@@ -193,6 +193,14 @@
     switchport switchport port-security mac-address **MAC*
     ```
     Se hizo eso con todas las interfaces conectadas
+- Configuracion de hostname
+    ``` 
+    configure terminal
+    line console 0
+    password redes2grupo6
+    login
+    end
+    ```
     
 - Configuracion de vtp 
     ``` 
