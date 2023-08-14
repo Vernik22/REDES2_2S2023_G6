@@ -197,7 +197,7 @@
     ``` 
     configure terminal
     line console 0
-    password redes2grupo6
+    password ***********
     login
     end
     ```
