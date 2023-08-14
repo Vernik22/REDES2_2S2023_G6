@@ -193,14 +193,6 @@
     switchport switchport port-security mac-address **MAC*
     ```
     Se hizo eso con todas las interfaces conectadas
-- Configuracion de hostname
-    ``` 
-    configure terminal
-    line console 0
-    password ***********
-    login
-    end
-    ```
     
 - Configuracion de vtp 
     ``` 
@@ -226,6 +218,15 @@
     show vlan brief
     ``` 
     ![D](./Images/SW5V.png)
+    
+- Configuracion de contraseña
+    ``` 
+    configure terminal
+    line console 0
+    password ***********
+    login
+    end
+    ```
 
 ### **Configuracion del Switch SW6**
 - Configuracion de hostname
