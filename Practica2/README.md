@@ -13,6 +13,80 @@
 **<h1 align="center">Direcciones de redes</h1>**
 	![D](./Images/direccionesred.jpeg)
 
+### Configuración MSW1
+``` 
+configure terminal
+hostname MSW1
+vlan 16
+name VENTAS
+exit
+int vlan 16
+ip address 1.0.0.1 255.0.0.0
+no shutdown 
+exit
+
+vlan 66
+name CORPORATIVO
+exit
+int vlan 66
+ip address 192.168.56.1 255.255.255.0
+no shutdown 
+exit
+
+int g0/1
+switchport mode access
+description ACC_VLAN16
+
+```
+
+### Configuración LACP 
+- ## Configuración SW1 - MSW1
+    SW1
+     ``` 
+    configure terminal
+    interface range f0/1-2
+    channel-group 2 mode active
+    no shutdown
+    ```
+    MSW1
+    ``` 
+    configure terminal
+    interface range f0/1-2
+    channel-group 2 mode passive
+    no shutdown 
+    ```
+- ## Configuración SW2 - MSW4
+    SW2
+     ``` 
+    configure terminal
+    interface range f0/1-2
+    channel-group 1 mode active
+    no shutdown
+    ```
+    MSW4
+    ``` 
+    configure terminal
+    interface range f0/1-2
+    channel-group 1 mode passive
+    no shutdown 
+    ```
+- ## Configuración SW3 - MSW7
+    SW3
+     ``` 
+    configure terminal
+    interface range f0/1-2
+    channel-group 1 mode active
+    no shutdown
+    ```
+    MSW7
+    ``` 
+    configure terminal
+    interface range f0/1-2
+    channel-group 1 mode passive
+    no shutdown 
+    ```
+
+
 
 ### **Configuracion de la PC1**
 
