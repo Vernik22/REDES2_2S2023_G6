@@ -14,13 +14,30 @@
 **<h1 align="center">Topologia</h1>**
 	![D](./Images/topologia.png)
 
-### Configuración Server DHCP1
-![D](./Images/DHCP1.png)
+### Red YOTA
+<div align="center">
+
+![D](./Images/YOTA.png)
+</div>
 
 
-### Configuración Server DHCP2
-![D](./Images/DHCP2.png)
+### Red ROSTELECOM
+<div align="center">
 
+![D](./Images/ROSTELECON.png)
+</div>
+
+### Red AKADO
+<div align="center">
+
+![D](./Images/AKADO.png)
+</div>
+
+### Tabla de Subneting
+<div align="center">
+
+![D](./Images/Subneting.png)
+</div>
 
 ### Configuración MSW0
 - Configuración de BGP
@@ -137,6 +154,34 @@ int range fa0/5-6
 switchport mode trunk
 channel-protocol lacp
 channel-group 2 mode active
+
+vlan 6 
+name ROSTEC
+vlan 16
+name SBERBANK
+vlan 76
+name PASO76
+vlan 66
+name PASO66
+vlan 86
+name PASO86
+
+int vlan 6
+ip address 192.168.56.1 255.255.255.248
+no shutdown
+
+int vlan 16
+ip address 192.168.56.17 255.255.255.248
+
+int vlan 76
+ip address 2.0.0.6 255.0.0.0
+
+int vlan 66
+ip adress 1.0.0.6 255.0.0.0
+
+int vlan 86
+ip address 3.0.0.6 255.0.0.0
+
 ``` 
 
 ### Configuración MSW9
@@ -149,6 +194,36 @@ int range fa0/5-6
 switchport mode trunk
 channel-protocol lacp
 channel-group 2 mode passive
+
+vlan 6 
+name ROSTEC
+vlan 16
+name SBERBANK
+vlan 76
+name PASO76
+vlan 66
+name PASO66
+vlan 86
+name PASO86
+
+int vlan 6
+ip address 192.168.56.1 255.255.255.248
+no shutdown
+
+int vlan 16
+ip address 192.168.56.17 255.255.255.248
+
+int vlan 76
+ip address 2.0.0.7 255.0.0.0
+
+int vlan 66
+ip adress 1.0.0.7 255.0.0.0
+
+int vlan 86
+ip address 3.0.0.7 255.0.0.0
+
+
+
 ``` 
 
 ### Configuración MSW15
